@@ -3,9 +3,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
-import 'package:{{project_name}}/app/modules/not_found/not_found_page.dart';
-import 'package:{{project_name}}/app/modules/not_found/not_found_binding.dart';
-import 'package:{{project_name}}/routes/app_pages.dart';
+import 'package:{{project_name.snakeCase()}}/app/modules/not_found/not_found_page.dart';
+import 'package:{{project_name.snakeCase()}}/app/modules/not_found/not_found_binding.dart';
+import 'package:{{project_name.snakeCase()}}/routes/app_pages.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

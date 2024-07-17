@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
-import 'package:{{project_name}}/app/modules/home/home_binding.dart';
-import 'package:{{project_name}}/app/modules/home/home_view.dart';
+import 'package:{{project_name.snakeCase()}}/app/modules/home/home_binding.dart';
+import 'package:{{project_name.snakeCase()}}/app/modules/home/home_view.dart';
 
 part 'app_routes.dart';
 
