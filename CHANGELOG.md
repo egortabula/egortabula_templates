@@ -15,3 +15,7 @@
 # 0.0.2+3
 
 - feat: README.md added egortabula logo white and dark
+
+# 0.0.2+4
+
+- fix: README.md getx_app & getx_feature links
