@@ -29,13 +29,13 @@ Collection of [mason bric][bricshub] templates created and maintained by [Egor T
 [bricshub]: https://brickhub.dev
 
 <!--- Getx_app --->
-[getx_app]: https://github.com/egortabula/mason_bricks/tree/main/getx_app
-[getx_app_docs]: https://github.com/egortabula/mason_bricks/blob/main/getx_app/README.md
+[getx_app]: https://github.com/egortabula/mason_bricks/tree/main/brics/getx_app
+[getx_app_docs]: https://github.com/egortabula/mason_bricks/blob/main/brics/getx_app/README.md
 <!-- [getx_app_workflow_badge]:
 [getx_app_workflow_ling]: -->
 
 <!--- Getx_feature --->
-[getx_feature]: https://github.com/egortabula/mason_bricks/tree/main/getx_feature
-[getx_feature_docs]: https://github.com/egortabula/mason_bricks/blob/main/getx_feature/README.md
+[getx_feature]: https://github.com/egortabula/mason_bricks/tree/main/brics/getx_feature
+[getx_feature_docs]: https://github.com/egortabula/mason_bricks/blob/main/brics/getx_feature/README.md
 <!-- [getx_feature_workflow_badge]:
 [getx_feature_workflow_link]: -->
