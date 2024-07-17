@@ -3,7 +3,7 @@
 [![Egor Tabula][logo_white]][egor_tabula_white_link]
 [![Egor Tabula][logo_black]][egor_tabula_dark_link]
 
-Developed with 💙 by [Egor Tabula][egor_tabula_link] 🦄
+Developed with 💙 by [Egor Tabula][egor_tabula_link] 👨
 
 Collection of [mason bric][bricshub] templates created and maintained by [Egor Tabula][repositories].
 
