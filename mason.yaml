@@ -1,0 +1,6 @@
+bricks:
+  getx_app:
+    path: getx_app
+  getx_feature:
+    path: getx_feature
+

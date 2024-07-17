@@ -1,0 +1,30 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/very_good_core/hooks"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/very_good_dart_cli/hooks"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/very_good_docs_site/__brick__/{{project_name.snakeCase()}}"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/very_good_flutter_plugin/hooks"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/very_good_wear_app/hooks"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tool/dependency_tightener"
+    schedule:
+      interval: "daily"
