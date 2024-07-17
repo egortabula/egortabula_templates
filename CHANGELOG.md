@@ -11,3 +11,7 @@
 - feat CHANGELOG.md
 - feat: LICENCE
 - refactor: group all brics in `brics` folder
+
+# 0.0.2+3
+
+- feat: README.md added egortabula logo white and dark
