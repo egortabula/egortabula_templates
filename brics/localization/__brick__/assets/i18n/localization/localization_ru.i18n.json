@@ -1,0 +1,11 @@
+{
+    "title": "Язык приложения",
+    "widgets": {
+        "listTile": {
+            "title": "Язык"
+        }
+    },
+    "errors": {
+        "changeLocaleErrorMessage": "Не удалось изменить язык. Попробуйте снова."
+    }
+}
