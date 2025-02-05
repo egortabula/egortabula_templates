@@ -6,7 +6,7 @@ Future<void> main() async {
 
   await initServices();
 
-  runApp(const {{packageName}}());
+  runApp(const {{packageName.pascalCase()}}App());
 }
 
 /// Initializes the necessary services for the application.

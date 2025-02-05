@@ -4,9 +4,9 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:{{packageName}}/routes/app_router.dart';
 
 /// The root widget of the application.
-class {{packageName.pascalCase()}} extends StatelessWidget {
+class {{packageName.pascalCase()}}App extends StatelessWidget {
   /// Creates a [{{packageName.pascalCase()}}] widget.
-  const {{packageName.pascalCase()}}({super.key});
+  const {{packageName.pascalCase()}}App ({super.key});
 
   @override
   Widget build(BuildContext context) {
