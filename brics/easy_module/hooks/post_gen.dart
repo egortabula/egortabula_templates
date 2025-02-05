@@ -22,4 +22,6 @@ void run(HookContext context) async {
         .progress('❌ dart fix --apply failed: ${result.stderr}')
         .complete();
   }
+
+  dartFixProgress.complete();
 }
