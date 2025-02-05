@@ -9,7 +9,7 @@ class AppRouter {
   /// Each route is defined with its path, the page to display,
   /// and its associated binding.
   static final routes = <RouteBase>[
-    //TODO: add routes here
+    //TODO(routes): add all your go router routes here
   ];
 
   /// The initial route of the app, set to the home screen.
