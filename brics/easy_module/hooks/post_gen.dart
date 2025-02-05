@@ -5,10 +5,17 @@ import 'package:mason/mason.dart';
 void run(HookContext context) async {
   final dartFixProgress = context.logger.progress('Running dart fix...');
 
-  // Run `flutter packages get` after generation.
-  await Process.run('dart', [
-    'fix:apply',
-  ]);
+  final result = await Process.run(
+    'dart',
+    ['fix', '--apply'],
+    runInShell: true,
+  );
+
+  if (result.exitCode == 0) {
+    context.logger.progress('✅ dart fix --apply completed successfully.');
+  } else {
+    context.logger.progress('❌ dart fix --apply failed: ${result.stderr}');
+  }
 
   dartFixProgress.complete();
 }
