@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import '../core/utils/helpers/keys/keys.dart';
+import 'package:{{packageName}}/core/utils/helpers/keys/keys.dart';
 import 'package:go_router/go_router.dart';
 
 class AppRouter {

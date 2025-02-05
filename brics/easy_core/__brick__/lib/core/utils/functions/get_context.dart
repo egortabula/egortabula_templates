@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../helpers/keys/keys.dart';
+import 'package:{{packageName}}/core/utils/helpers/keys/keys.dart';
 
 /// A shorthand getter to retrieve the current [BuildContext]
 /// from the navigator key.
