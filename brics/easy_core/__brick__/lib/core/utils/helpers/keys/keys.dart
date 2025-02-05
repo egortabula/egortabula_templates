@@ -1,4 +1,4 @@
-import 'package:{{packageName}}/core/utils/helpers/keys/navigator_keys.dart';
+import 'package:{{packageName.snakeCase()}}/core/utils/helpers/keys/navigator_keys.dart';
 
 /// A container for holding global keys used throughout the application.
 ///

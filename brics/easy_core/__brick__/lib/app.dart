@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:{{packageName}}/routes/app_router.dart';
+import 'package:{{packageName.snakeCase()}}/routes/app_router.dart';
 
 /// The root widget of the application.
 class {{packageName.pascalCase()}}App extends StatelessWidget {

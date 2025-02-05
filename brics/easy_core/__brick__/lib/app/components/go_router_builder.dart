@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../core/utils/helpers/go_router_binding.dart';
+import 'package:{{packageeName.snakeCase()}}/core/utils/helpers/go_router_binding.dart';
 import 'package:go_router/go_router.dart';
 
 /// A widget that builds a GoRouter with the provided state and bindings.
