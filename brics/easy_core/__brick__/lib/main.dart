@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:{{packageName.snakeCase()}}/app.dart';
+import 'package:{{projectName.snakeCase()}}/app.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await initServices();
 
-  runApp(const {{packageName.pascalCase()}}App());
+  runApp(const {{projectName.pascalCase()}}App());
 }
 
 /// Initializes the necessary services for the application.

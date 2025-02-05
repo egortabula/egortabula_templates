@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:{{packageName.snakeCase()}}/routes/app_router.dart';
+import 'package:{{projectName.snakeCase()}}/routes/app_router.dart';
 
 /// The root widget of the application.
-class {{packageName.pascalCase()}}App extends StatelessWidget {
-  /// Creates a [{{packageName.pascalCase()}}App] widget.
-  const {{packageName.pascalCase()}}App ({super.key});
+class {{projectName.pascalCase()}}App extends StatelessWidget {
+  /// Creates a [{{projectName.pascalCase()}}App] widget.
+  const {{projectName.pascalCase()}}App ({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: '{{packageName.titleCase()}}',
+      title: '{{projectName.titleCase()}}',
       routerConfig: AppRouter.config,
       debugShowCheckedModeBanner: false,
       localizationsDelegates: GlobalMaterialLocalizations.delegates,
