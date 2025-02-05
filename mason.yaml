@@ -3,3 +3,5 @@ bricks:
     path: brics/getx_app
   getx_feature:
     path: brics/getx_feature
+  easy_core:
+    path: brics/easy_core
