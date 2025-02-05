@@ -12,9 +12,13 @@ void run(HookContext context) async {
   );
 
   if (result.exitCode == 0) {
-    context.logger.progress('✅ dart fix --apply completed successfully.');
+    context.logger
+        .progress('✅ dart fix --apply completed successfully.')
+        .complete();
   } else {
-    context.logger.progress('❌ dart fix --apply failed: ${result.stderr}');
+    context.logger
+        .progress('❌ dart fix --apply failed: ${result.stderr}')
+        .complete();
   }
 
   dartFixProgress.complete();
