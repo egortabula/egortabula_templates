@@ -20,3 +20,15 @@ vars:
     type: string
     description: Module name
     prompt: What is your module name?
+  languages:
+    type: array
+    description: Supported languages
+    prompt: What languages do you support?
+    defaults:
+      - ru
+      - en
+    values:
+      - ru
+      - en
+      - fr
+      - tr
