@@ -7,8 +7,8 @@ import 'package:{{package_name.snakeCase()}}/app/modules/{{module_name.snakeCase
 
 
 @TypedGoRoute<{{module_name.pascalCase()}}Route>(
-  path = '/{{module_name.paramCase()}}',
-  name = '{{module_name.sentenceCase()}}',
+  path: '/{{module_name.paramCase()}}',
+  name: '{{module_name.sentenceCase()}}',
 )
 class {{module_name.pascalCase()}}Route extends GoRouteData {
   const {{module_name.pascalCase()}}Route();
