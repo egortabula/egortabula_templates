@@ -7,7 +7,7 @@ void run(HookContext context) async {
 
   // Run `flutter packages get` after generation.
   await Process.run('dart', [
-    'fix --apply',
+    'fix:apply',
   ]);
 
   dartFixProgress.complete();
