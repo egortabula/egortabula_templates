@@ -11,8 +11,6 @@ void run(HookContext context) async {
     runInShell: true,
   );
 
-  dartFixProgress.complete();
-
   if (result.exitCode == 0) {
     context.logger
         .progress('✅ dart fix --apply completed successfully.')
