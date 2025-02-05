@@ -5,7 +5,7 @@ import 'package:{{packageName}}/routes/app_router.dart';
 
 /// The root widget of the application.
 class {{packageName.pascalCase()}}App extends StatelessWidget {
-  /// Creates a [{{packageName.pascalCase()}}] widget.
+  /// Creates a [{{packageName.pascalCase()}}App] widget.
   const {{packageName.pascalCase()}}App ({super.key});
 
   @override
