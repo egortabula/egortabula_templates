@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:{{package_name.snakeCase()}}/app/components/go_router_builder.dart';
-import 'package:{{package_name.snakeCase()}}/app/modules/{{module_name.snakeCase()}}/{{module_name.snakeCase()}}_binding.dart';
-import 'package:{{package_name.snakeCase()}}/app/modules/{{module_name.snakeCase()}}/{{module_name.snakeCase()}}_view.dart';
+
+import '../app/components/go_router_builder.dart';
+import '../app/modules/{{module_name.snakeCase()}}/{{module_name.snakeCase()}}_binding.dart';
+import '../app/modules/{{module_name.snakeCase()}}/{{module_name.snakeCase()}}_view.dart';
+
 
 @TypedGoRoute<{{module_name.pascalCase()}}Route>(
   path: '/{{module_name.paramCase()}}',
