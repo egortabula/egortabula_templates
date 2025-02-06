@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
-import '../core/utils/helpers/keys/keys.dart';
 import 'package:go_router/go_router.dart';
+
+import '../core/utils/helpers/keys/keys.dart';
 
 class AppRouter {
   AppRouter._();
@@ -9,7 +10,7 @@ class AppRouter {
   /// Each route is defined with its path, the page to display,
   /// and its associated binding.
   static final routes = <RouteBase>[
-    //TODO(routes): add all your go router routes here
+    // TODO(routes): add all your go router routes here
   ];
 
   /// The initial route of the app, set to the home screen.

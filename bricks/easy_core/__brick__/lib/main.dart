@@ -14,5 +14,5 @@ Future<void> main() async {
 /// This method is called before the application starts to ensure that all
 /// required services are properly set up.
 Future<void> initServices() async {
-  //TODO(services): add services
+  // TODO(services): add services
 }
