@@ -4,5 +4,6 @@ environment:
   sdk: ">=3.4.3 <4.0.0"
 
 dependencies:
+  flutter:
+    sdk: flutter
   mason: 0.1.0
-
