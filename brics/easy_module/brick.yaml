@@ -20,15 +20,7 @@ vars:
     type: string
     description: Module name
     prompt: What is your module name?
-  languages:
-    type: array
-    description: Supported languages
-    prompt: What languages do you support?
-    defaults:
-      - ru
-      - en
-    values:
-      - ru
-      - en
-      - fr
-      - tr
+  supported_locales:
+    type: list
+    description: Supported locales
+    prompt: Select supported locales (ex. en)?
