@@ -164,10 +164,8 @@
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2025-02-06T20:54:22.754299Z",
+  "generated": "2025-02-06T21:24:49.502778Z",
   "generator": "pub",
-  "generatorVersion": "3.6.1",
-  "flutterRoot": "file:///Users/egortabula/development/flutter",
-  "flutterVersion": "3.27.3",
+  "generatorVersion": "3.6.0",
   "pubCache": "file:///Users/egortabula/.pub-cache"
 }
