@@ -3,3 +3,5 @@ bricks:
     path: bricks/easy_core
   easy_module:
     path: bricks/easy_module
+  easy_submodule:
+    path: bricks/easy_submodule
