@@ -1,0 +1,10 @@
+targets:
+  $default:
+    builders:
+      # only to resolve build_runner conflicts
+      dart_mappable_builder:
+        options:
+          build_extensions:
+            'lib//.dart':
+              - 'lib//gen/.mapper.dart'
+              - 'lib//gen/.init.dart'

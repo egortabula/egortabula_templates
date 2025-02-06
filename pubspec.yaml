@@ -1,7 +1,8 @@
-name: mason_brics
+name: mason_bricks
 
 environment:
   sdk: ">=3.4.3 <4.0.0"
 
 dependencies:
   mason: 0.1.0
+

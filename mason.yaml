@@ -1,7 +1,5 @@
 bricks:
-  getx_app:
-    path: brics/getx_app
-  getx_feature:
-    path: brics/getx_feature
   easy_core:
-    path: brics/easy_core
+    path: bricks/easy_core
+  easy_module:
+    path: bricks/easy_module

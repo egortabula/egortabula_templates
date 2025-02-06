@@ -21,7 +21,7 @@
     },
     {
       "name": "collection",
-      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/collection-1.19.1",
+      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/collection-1.19.0",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -81,7 +81,7 @@
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/meta-1.16.0",
+      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/meta-1.15.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -93,9 +93,9 @@
     },
     {
       "name": "path",
-      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/path-1.9.1",
+      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/path-1.9.0",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.0"
     },
     {
       "name": "pool",
@@ -158,13 +158,13 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "mason_brics",
+      "name": "mason_bricks",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2025-02-05T21:10:39.241261Z",
+  "generated": "2025-02-06T20:54:22.754299Z",
   "generator": "pub",
   "generatorVersion": "3.6.1",
   "flutterRoot": "file:///Users/egortabula/development/flutter",
