@@ -42,4 +42,14 @@ Future<void> run(HookContext context) async {
   );
 
   installDevPackagesProgress.complete();
+
+  final dartFixProgress = context.logger.progress('Running dart fix...');
+
+  await Process.run(
+    'dart',
+    ['fix', '--apply', '.'],
+    runInShell: true,
+  );
+
+  dartFixProgress.complete();
 }
