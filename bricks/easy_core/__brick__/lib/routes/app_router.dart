@@ -1,7 +1,8 @@
 import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-
 import '../core/utils/helpers/keys/keys.dart';
+import 'error_route.dart';
 
 class AppRouter {
   AppRouter._();
@@ -19,6 +20,9 @@ class AppRouter {
   static GoRouter config = GoRouter(
     initialLocation: initial,
     routes: routes,
+    errorBuilder: (BuildContext context, GoRouterState state) {
+      return ErrorRoute(error: state.error!).build(context, state);
+    },
     navigatorKey: keys.navigatorKeys.navigatorKey,
     debugLogDiagnostics: kDebugMode,
     observers: [],
