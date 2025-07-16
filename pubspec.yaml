@@ -1,4 +1,4 @@
-name: mason_bricks
+name: egortabula_templates
 
 environment:
   sdk: ">=3.4.3 <4.0.0"

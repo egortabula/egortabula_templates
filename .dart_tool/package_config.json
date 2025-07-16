@@ -9,15 +9,15 @@
     },
     {
       "name": "async",
-      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/async-2.12.0",
+      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/async-2.13.0",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "characters",
-      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/characters-1.3.0",
+      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/characters-1.4.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.4"
     },
     {
       "name": "checked_yaml",
@@ -27,7 +27,7 @@
     },
     {
       "name": "collection",
-      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/collection-1.19.0",
+      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/collection-1.19.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -45,15 +45,15 @@
     },
     {
       "name": "ffi",
-      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/ffi-2.1.3",
+      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/ffi-2.1.4",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
+      "languageVersion": "3.7"
     },
     {
       "name": "flutter",
-      "rootUri": "file:///Users/egortabula/development/flutter/packages/flutter",
+      "rootUri": "file:///Users/egortabula/flutter/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
+      "languageVersion": "3.7"
     },
     {
       "name": "http",
@@ -87,7 +87,7 @@
     },
     {
       "name": "mason_logger",
-      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/mason_logger-0.3.2",
+      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/mason_logger-0.3.3",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
@@ -99,7 +99,7 @@
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/meta-1.15.0",
+      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/meta-1.16.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -111,9 +111,9 @@
     },
     {
       "name": "path",
-      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/path-1.9.0",
+      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/path-1.9.1",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.4"
     },
     {
       "name": "pool",
@@ -123,15 +123,15 @@
     },
     {
       "name": "pub_semver",
-      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/pub_semver-2.1.5",
+      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/pub_semver-2.2.0",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///Users/egortabula/development/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///Users/egortabula/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.7"
     },
     {
       "name": "source_span",
@@ -171,15 +171,15 @@
     },
     {
       "name": "web",
-      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/web-1.1.0",
+      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/web-1.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "win32",
-      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/win32-5.10.1",
+      "rootUri": "file:///Users/egortabula/.pub-cache/hosted/pub.dev/win32-5.12.0",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.7"
     },
     {
       "name": "yaml",
@@ -188,16 +188,15 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "mason_bricks",
+      "name": "egortabula_templates",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2025-02-06T22:23:52.786186Z",
   "generator": "pub",
-  "generatorVersion": "3.6.1",
-  "flutterRoot": "file:///Users/egortabula/development/flutter",
-  "flutterVersion": "3.27.3",
+  "generatorVersion": "3.8.1",
+  "flutterRoot": "file:///Users/egortabula/flutter",
+  "flutterVersion": "3.32.5",
   "pubCache": "file:///Users/egortabula/.pub-cache"
 }
