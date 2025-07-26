@@ -1,0 +1,73 @@
+name: storage_client
+description: A Key/Value Storage Client for Dart.
+
+# The following defines the brick repository url.
+# Uncomment and update the following line before publishing the brick.
+# repository: https://github.com/my_org/my_repo
+
+# The following defines the version and build number for your brick.
+# A version number is three numbers separated by dots, like 1.2.34
+# followed by an optional build number (separated by a +).
+version: 0.1.0+1
+
+# The following defines the environment for the current brick.
+# It includes the version of mason that the brick requires.
+environment:
+  mason: ^0.1.1
+
+# Variables specify dynamic values that your brick depends on.
+# Zero or more variables can be specified for a given brick.
+# Each variable has:
+#  * a type (string, number, boolean, enum, array, or list)
+#  * an optional short description
+#  * an optional default value
+#  * an optional list of default values (array only)
+#  * an optional prompt phrase used when asking for the variable
+#  * a list of values (enums only)
+#  * an optional separator (list only)
+vars:
+  package_name:
+    type: string
+    description: The name of the package.
+    prompt: What is the name of the package?
+    default: storage_client
+  storage_implementations:
+    type: array
+    description: |
+      Storage implementations for persistent data storage:
+      • storage_client - Abstract storage interface
+      • shared_prefs_async - Async storage that saves data in device's persistent memory using SharedPreferences
+      • shared_prefs_sync - Sync storage that saves data in device's persistent memory using SharedPreferences
+      • shared_prefs_cache - Cached storage with in-memory layer for faster access
+      • hive_string - NoSQL storage for string values in persistent device memory
+      • hive_model - NoSQL storage for complex models in persistent device memory
+      • get_storage - Lightweight persistent storage for fast data access
+      • flutter_secure_storage - Encrypted storage for sensitive data in secure device memory
+    prompt: Which storage implementations do you want to include?
+    defaults:
+      - storage_client
+    values:
+      - storage_client
+      - shared_prefs_async
+  storage_methods:
+    type: array
+    description: |
+      Storage methods to include in the generated implementations:
+      • read - Read data from storage with type safety
+      • write - Write data to storage (null removes the key)
+      • delete - Remove a specific key from storage
+      • clear - Remove all data from storage
+      • containsKey - Check if a key exists in storage
+    prompt: Which storage methods do you want to include?
+    defaults:
+      - read
+      - write
+      - delete
+      - clear
+      - containsKey
+    values:
+      - read
+      - write
+      - delete
+      - clear
+      - containsKey

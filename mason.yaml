@@ -1,1 +1,4 @@
 bricks:
+  flutter_coverage_updater: ^1.2.1
+  storage_client:
+    path: ./storage_client
