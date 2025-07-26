@@ -7,9 +7,9 @@ updates:
     schedule:
       interval: "daily"
   {{/include_storage_client}}
-  {{#include_shared_prefs_async_storage}}
+  {{#include_shared_prefs_async}}
   - package-ecosystem: "pub"
     directory: "{{package_name.lowerCase()}}/shared_prefs_async_storage"
     schedule:
       interval: "daily"
-  {{/include_shared_prefs_async_storage}}
+  {{/include_shared_prefs_async}}
