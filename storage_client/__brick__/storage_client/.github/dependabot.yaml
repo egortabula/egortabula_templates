@@ -1,0 +1,15 @@
+version: 2
+enable-beta-ecosystems: true
+updates:
+  {{#include_storage_client}}
+  - package-ecosystem: "pub"
+    directory: "{{package_name.lowerCase()}}/storage"
+    schedule:
+      interval: "daily"
+  {{/include_storage_client}}
+  {{#include_shared_prefs_async_storage}}
+  - package-ecosystem: "pub"
+    directory: "{{package_name.lowerCase()}}/shared_prefs_async_storage"
+    schedule:
+      interval: "daily"
+  {{/include_shared_prefs_async_storage}}

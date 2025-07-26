@@ -1,0 +1,21 @@
+name: storage_client_ci
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  pull_request:
+    paths:
+      - "packages/{{{package_name}}}/storage/**" #TODO: edit path
+      - ".github/workflows/storage_client_ci.yaml" #TODO: edit path
+    branches:
+      - main
+
+jobs:
+  build:
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/dart_package.yml@v1
+    with:
+      working_directory: packages/{{{package_name}}}/storage #TODO: edit path
+      min_coverage: 80  #TODO: edit later
+

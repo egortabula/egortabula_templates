@@ -1,0 +1,21 @@
+name: shared_prefs_async_storage_ci
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  pull_request:
+    paths:
+      - "packages/{{{package_name}}}/shared_prefs_async_storage_/**" #TODO: edit path
+      - ".github/workflows/shared_prefs_async_storage_ci.yaml" #TODO: edit path
+    branches:
+      - main
+
+jobs:
+  build:
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
+    with:
+      working_directory: packages/{{{package_name}}}/shared_prefs_async_storage_ #TODO: edit path
+      min_coverage: 80  #TODO: edit later
+
