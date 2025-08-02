@@ -2,3 +2,5 @@ bricks:
   flutter_coverage_updater: ^1.2.1
   storage_client:
     path: ./storage_client
+  deep_link_client:
+    path: ./deep_link_client

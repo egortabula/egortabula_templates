@@ -1,0 +1,21 @@
+name: app_links_deep_link_client
+description: A App Links implementation of DeepLinkClient
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+  flutter: ^3.32.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  deep_link_client:
+    path: ../deep_link_client
+  app_links: ^6.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^9.0.0
