@@ -8,11 +8,11 @@ environment:
   flutter: ^3.32.0
 
 dependencies:
-  flutter:
-    sdk: flutter
+  app_links: ^6.4.0
   deep_link_client:
     path: ../deep_link_client
-  app_links: ^6.4.0
+  flutter:
+    sdk: flutter
 
 dev_dependencies:
   flutter_test:
