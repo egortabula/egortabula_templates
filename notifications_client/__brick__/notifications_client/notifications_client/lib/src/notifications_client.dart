@@ -137,8 +137,10 @@ abstract class NotificationsClient {
   /// cannot be retrieved.
   Future<PushNotification?> getInitialMessage();
 
+  /// {@template get_token}
   /// Returns the current push token for the device.
   ///
   /// Throws [GetTokenFailure] if the token cannot be retrieved.
+  /// {@endtemplate}
   Future<PushToken> getToken();
 }
