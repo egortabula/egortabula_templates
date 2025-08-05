@@ -1,0 +1,23 @@
+name: appmetrica_notifications_client
+description: A Appmetrica notifications client.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+  flutter: ^3.32.0
+
+dependencies:
+  appmetrica_push_plugin: ^2.2.0
+  firebase_messaging: ^16.0.0
+  flutter:
+    sdk: flutter
+  notifications_client:
+    path: ../notifications_client
+  rxdart: ^0.28.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^9.0.0
