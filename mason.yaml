@@ -4,3 +4,5 @@ bricks:
     path: ./storage_client
   deep_link_client:
     path: ./deep_link_client
+  notifications_client:
+    path: ./notifications_client
